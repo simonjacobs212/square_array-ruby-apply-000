@@ -1,8 +1,8 @@
-new_numbers = [1,2,3]
-
 def square_array(array)
-  numbers.each do |num|
-    new_numbers << (num ** 2)
+  new_numbers = []
+  array.each do |integer|
+    new_array << integer ** 2
   end
-  return new_numbers
+  return new_array
+
 end
